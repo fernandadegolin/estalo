@@ -1,0 +1,40 @@
+// Main
+$pink: #e6b9b3;
+$red: #942c2b;
+$yellow: #f1d689;
+$blue: #29435e;
+
+// Sistem
+$darkest-color: #0d0d0d;
+$darker-color: #1c1c1c;
+$dark-color: #6b6b6b;
+$medium-color: #8a8a8a;
+$light-color: #cfcfcf;
+$lighter-color: #eaeaea;
+$lightest-color: #ffffff;
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Dancing+Script:wght@400;500;600;700&family=Oranienbaum&display=swap");
+$font-default: "Alice", serif;
+$font-title: "Dancing Script", cursive;
+$font-medium: "Oranienbaum", serif;
+
+// Bootstrap
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+// Exemplo de media
+// @include media-breakpoint-up(sm) { ... }
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  desktop: 1262px,
+);

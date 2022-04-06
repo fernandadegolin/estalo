@@ -1,0 +1,116 @@
+@import "variables";
+@import "mixins";
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: none;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+  background: rgba(black, 0);
+  box-shadow: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(135deg, rgba(black, 0.25), rgba(black, 0.1));
+  box-shadow: none;
+}
+
+*::-moz-scrollbar-track {
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: none;
+}
+
+*::-moz-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+  background: rgba(black, 0);
+  box-shadow: none;
+}
+
+*::-moz-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(135deg, rgba(black, 0.25), rgba(black, 0.1));
+  box-shadow: none;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(#000, 0);
+}
+
+body {
+  font-family: $font-default;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+button{
+  border: 0 none;
+}
+
+strong {
+  font-family: $font-default;
+  font-weight: normal;
+}
+
+#__next {
+  isolation: isolate;
+  min-height: 100%;
+  position: relative;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

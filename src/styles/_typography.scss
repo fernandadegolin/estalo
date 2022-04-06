@@ -1,0 +1,21 @@
+@use "sass:math";
+@import "./_variables";
+
+@mixin nav() {
+  font-family: $font-default;
+  font-size: 1.1rem;
+  color: $red;
+  transition: 0.2s;
+}
+
+@mixin title($color) {
+  font-family: $font-title;
+  color: $color;
+  font-size: 7rem;
+}
+
+@mixin paragraph($color) {
+  font-family: $font-default;
+  color: $color;
+  font-size: 1.5rem;
+}
