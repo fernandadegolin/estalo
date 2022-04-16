@@ -5,6 +5,8 @@ import Link from "next/link";
 import styles from "./Nav.module.scss";
 import Logo from "./../../assets/images/logo.png";
 
+import { Button } from "./../Button/Button";
+
 export function Nav() {
   return (
     <section className={styles.nav}>
@@ -19,7 +21,7 @@ export function Nav() {
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="">
               <a className="navBarLink">Missão e Valores</a>
             </Link>
           </li>
@@ -40,7 +42,7 @@ export function Nav() {
           </li>
         </ul>
       </div>
-      <div className={styles.roundedbutton}>
+      <div className={styles.roundedButton}>
         <button>Agendamento</button>
       </div>
     </section>

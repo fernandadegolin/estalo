@@ -1,0 +1,51 @@
+@import "./../../styles/includes";
+
+.mission {
+  background: $lighter-color;
+  height: 100vh;
+  padding: 4vw;
+}
+
+.missionTitle {
+  width: 50%;
+
+  h1 {
+    @include title($blue);
+  }
+
+  p {
+    @include paragraph($blue);
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+}
+
+.valuesTitle {
+  width: 50%;
+  margin-left: auto;
+  text-align: right;
+
+  h1 {
+    @include title($blue);
+  }
+
+  p {
+    @include paragraph($blue);
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+}
+
+.values {
+  display: flex;
+}
+
+.valuesImage {
+  width: 40vw;
+  margin-left: -4vw;
+  margin-top: 2vw;
+}

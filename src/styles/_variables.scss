@@ -4,6 +4,21 @@ $red: #942c2b;
 $yellow: #f1d689;
 $blue: #29435e;
 
+// Background
+$bgRed: linear-gradient(
+  138deg,
+  rgba(148, 44, 43, 1) 0%,
+  rgba(204, 51, 24, 1) 66%,
+  rgba(255, 77, 74, 1) 100%
+);
+
+$bgYellow: linear-gradient(
+  90deg,
+  rgba(204, 181, 116, 1) 0%,
+  rgba(241, 214, 137, 1) 48%,
+  rgba(255, 247, 224, 1) 100%
+);
+
 // Sistem
 $darkest-color: #0d0d0d;
 $darker-color: #1c1c1c;
