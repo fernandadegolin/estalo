@@ -17,34 +17,32 @@ export function Nav() {
         <ul>
           <li>
             <Link href="#">
-              <a className="navBarLink">Quem Somos</a>
+              <a>Quem Somos</a>
             </Link>
           </li>
           <li>
-            <Link href="">
-              <a className="navBarLink">Missão e Valores</a>
+            <Link href="#mission">
+              <a>Missão e Valores</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
-              <a className="navBarLink">Por que fazer terapia?</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="#">
-              <a className="navBarLink">Dúvidas</a>
+            <Link href="#question">
+              <a>Por que fazer terapia?</a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a className="navBarLink">Contato</a>
+              <a>Dúvidas</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#contact">
+              <a>Contato</a>
             </Link>
           </li>
         </ul>
       </div>
-      <div className={styles.roundedButton}>
-        <button>Agendamento</button>
-      </div>
+      <Button>Agendamento</Button>
     </section>
   );
 }

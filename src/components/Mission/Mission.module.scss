@@ -7,6 +7,7 @@
 }
 
 .missionTitle {
+  padding-top: 3rem; //Para o link dar certinho
   width: 50%;
 
   h1 {
@@ -48,4 +49,5 @@
   width: 40vw;
   margin-left: -4vw;
   margin-top: 2vw;
+  filter: drop-shadow(5px 10px 26px #942c2b);
 }

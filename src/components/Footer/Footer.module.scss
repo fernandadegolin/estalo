@@ -1,0 +1,46 @@
+@import "./../../styles/includes";
+
+.footer {
+  height: 50vh;
+  padding-top: 4rem;
+
+  hr {
+    margin: 3rem;
+  }
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  cursor: pointer;
+
+  a {
+    margin-bottom: 2rem;
+    filter: grayscale(100%);
+
+    @include hover {
+      outline: none;
+      transform: scale(1.15);
+      filter: grayscale(0);
+    }
+  }
+}
+
+.footerCopyright {
+  p {
+    @include paragraph($darkest-color);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}

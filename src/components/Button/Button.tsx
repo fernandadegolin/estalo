@@ -1,23 +1,18 @@
 import styles from "./Button.module.scss";
 
 type ButtonProps = {
-  [key: string]: string | number | boolean | undefined | Function;
-  variant?: "red";
-  acao?: () => Function;
-  children?: any;
+  // [key: string]: string | number | boolean | undefined | Function;
+  variant?: "red" | "blue" | "light";
+  children: any;
 };
 
-export const Button = ({ children, variant, acao, ...props }: ButtonProps) => {
+export const Button = ({ children, variant }: ButtonProps) => {
   variant = variant ?? "red";
-  const cssClassVariant = `button__${variant}`;
+  const cssClassVariant = `buttonClass__${variant}`;
 
   return (
-    <button
-      className={`${styles.roundedButton} ${styles[cssClassVariant]}`}
-      onClick={acao}
-      {...props}
-    >
-      {children}
-    </button>
+    <div className={`${styles.buttonClass} ${styles[cssClassVariant]}`}>
+      <button>{children}</button>
+    </div>
   );
 };

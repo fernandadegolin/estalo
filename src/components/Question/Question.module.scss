@@ -2,7 +2,17 @@
 
 .question {
   background: $bgRed;
-  
+
+  form {
+    display: flex;
+    justify-content: center;
+
+    Button {
+      min-width: 225px;
+      min-height: 64px;
+      text-transform: uppercase;
+    }
+  }
 }
 
 .questionTitle {
@@ -17,7 +27,49 @@
   p {
     @include paragraph($pink);
     text-align: center;
-    letter-spacing: 3px;
     margin-top: 4rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    padding: 0 9rem;
+  }
+}
+
+.questionAnswer {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.questionAnswer {
+  .faq {
+    width: 50%;
+    padding: 0 4rem;
+  }
+
+  details {
+    padding: 2rem 0rem 1rem 6rem;
+  }
+
+  summary {
+    @include paragraph($pink);
+    font-size: 1.3rem;
+    cursor: pointer;
+
+    @include hover {
+      outline: none;
+      font-weight: bold;
+    }
+  }
+
+  main {
+    @include paragraph(#ffcdc7);
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+
+  figure {
+    filter: drop-shadow(5px 10px 26px $pink);
   }
 }

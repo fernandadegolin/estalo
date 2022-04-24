@@ -7,6 +7,8 @@ import styles from "../styles/Home.module.css";
 import { Button } from "./../components/Button/Button";
 import { Mission } from "./../components/Mission/Mission";
 import { Question } from "../components/Question/Question";
+import { Contact } from "./../components/Contact/Contact";
+import { Footer } from "./../components/Footer/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -14,15 +16,14 @@ const Home: NextPage = () => {
       <Nav />
       <Main />
       <Mission />
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Estalo</a>
-        </h1>
-        <form action="/teste">
-          <Button type="submit">teste</Button>
-        </form>
-      </main>
       <Question />
+      {/* <main className={styles.main}>
+        <h1 className={styles.title}>
+          POLITICA DE PRIVACIDADE <a href="https://nextjs.org">Estalo</a>
+        </h1>
+      </main> */}
+      <Contact />
+      <Footer />
     </div>
   );
 };
