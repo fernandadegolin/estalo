@@ -5,19 +5,15 @@ $yellow: #f1d689;
 $blue: #29435e;
 
 // Background
-$bgRed: linear-gradient(
-  138deg,
-  rgba(148, 44, 43, 1) 0%,
-  rgba(204, 51, 24, 1) 66%,
-  rgba(255, 77, 74, 1) 100%
-);
+$bgRed: linear-gradient(138deg, #942c2b 0%, #cc3318 66%, #ff4d4a 100%);
 
-$bgYellow: linear-gradient(
-  90deg,
-  rgba(204, 181, 116, 1) 0%,
-  rgba(241, 214, 137, 1) 48%,
-  rgba(255, 247, 224, 1) 100%
-);
+$bgYellow: linear-gradient(90deg, #ccb574 0%, #f1d689 48%, #fff7e0 100%);
+
+$bgPink: linear-gradient(138deg, #ffcdc7 0%, #e6b9b3 52%, #fb8878 100%);
+
+$bgBlue: linear-gradient(180deg, #29435e 0%, #5a91cc 52%, #70b5ff95 100%);
+
+$bgLight: linear-gradient(180deg, #cfcfcf 0%, #eaeaea 52%, #ffffff 100%);
 
 // Sistem
 $darkest-color: #0d0d0d;

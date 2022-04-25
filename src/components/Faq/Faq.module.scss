@@ -1,0 +1,59 @@
+@import "./../../styles/includes";
+
+.faq {
+  background: $bgLight;
+}
+
+.faqTitle {
+  padding: 7rem 11rem 4rem;
+
+  h1 {
+    @include title($red);
+  }
+
+  p {
+    @include paragraph($red);
+    padding: 2rem 9rem 0;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+}
+
+.faqAnswer {
+  display: flex;
+  margin-top: 3rem;
+
+
+  figure {
+    width: 50%;
+    margin-top: -3rem;filter: drop-shadow(5px 10px 26px $blue);
+  }
+}
+
+.faqAnswerItems {
+  width: 50%;
+
+  details {
+    padding: 2rem 6rem 1rem 2rem;
+  }
+
+  summary {
+    @include paragraph($red);
+    font-size: 1.3rem;
+    cursor: pointer;
+
+    @include hover {
+      outline: none;
+      font-weight: bold;
+    }
+  }
+
+  main {
+    @include paragraph($red);
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+}

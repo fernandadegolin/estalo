@@ -1,37 +1,32 @@
-export type Faq = {
+export type FaqItems = {
   question: string;
   answer: string;
 };
 
-export const questionFaq: Faq[] = [
+export const questionFaq: FaqItems[] = [
   {
-    question: "Sed ut perspiciatis Lorem ipsum dolor?",
+    question: "Como funciona o atendimento?",
     answer:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.",
   },
   {
-    question: "Lorem ipsum dolor?",
+    question: "Qual o formato?",
     answer:
       "Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    question: "Nemo enim ipsam?",
+    question: "Qual a duração?",
     answer:
       "Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.",
   },
   {
-    question: "Sed ut perspiciatis, Lorem ipsum dolor?",
+    question: "Quanto custa?",
     answer:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.",
   },
   {
-    question: "Sed ut perspiciatis Lorem ipsum dolor?",
+    question: "Qual a frequência?",
     answer:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.",
-  },
-  {
-    question: "Lorem ipsum dolor?",
-    answer:
-      "Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];

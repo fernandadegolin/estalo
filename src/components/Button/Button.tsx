@@ -2,7 +2,7 @@ import styles from "./Button.module.scss";
 
 type ButtonProps = {
   // [key: string]: string | number | boolean | undefined | Function;
-  variant?: "red" | "blue" | "light";
+  variant?: "red" | "blue" | "light" | "lightRed";
   children: any;
 };
 

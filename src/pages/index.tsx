@@ -9,6 +9,7 @@ import { Mission } from "./../components/Mission/Mission";
 import { Question } from "../components/Question/Question";
 import { Contact } from "./../components/Contact/Contact";
 import { Footer } from "./../components/Footer/Footer";
+import { Faq } from "./../components/Faq/Faq";
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <Main />
       <Mission />
       <Question />
+      <Faq />
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           POLITICA DE PRIVACIDADE <a href="https://nextjs.org">Estalo</a>

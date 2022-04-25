@@ -31,7 +31,7 @@ export function Nav() {
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="#faq">
               <a>Dúvidas</a>
             </Link>
           </li>
