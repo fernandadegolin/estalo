@@ -16,7 +16,7 @@ export function Nav() {
       <div className={styles.navBar}>
         <ul>
           <li>
-            <Link href="#">
+            <Link href="#quem-somos">
               <a>Quem Somos</a>
             </Link>
           </li>

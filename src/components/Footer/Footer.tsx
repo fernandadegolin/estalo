@@ -5,11 +5,8 @@ import Image from "next/image";
 import styles from "./Footer.module.scss";
 import Logo from "./../../assets/images/estalo.png";
 import emailColor from "./../../assets/icons/email-color.png";
-import facebookBlack from "./../../assets/icons/facebook-black.png";
 import facebookColor from "./../../assets/icons/facebook-color.png";
-import instagramBlack from "./../../assets/icons/instagram-black.png";
 import instagramColor from "./../../assets/icons/instagram-color.png";
-import whatsappBlack from "./../../assets/icons/whatsapp-black.png";
 import whatsappColor from "./../../assets/icons/whatsapp-color.png";
 
 export const Footer = () => {

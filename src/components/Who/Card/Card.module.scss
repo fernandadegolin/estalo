@@ -1,0 +1,125 @@
+@import "./../../../styles/_includes";
+
+.card {
+  background: $blue;
+  height: auto;
+}
+
+.cardTitle {
+  padding: 7rem 11rem 4rem;
+
+  h1 {
+    @include title($lightest-color);
+  }
+
+  p {
+    @include paragraph($lightest-color);
+    padding: 2rem 9rem 0;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+}
+
+.cardItem {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  gap: 0.5em;
+  padding: 0 10rem 2rem;
+}
+
+.cardItems {
+  width: 190px;
+  height: 254px;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  background: #f2f2f3;
+  box-shadow: inset 5px 5px 10px #a9a9aa77, inset -5px -5px 10px #ffffff7e;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+
+  @include hover {
+    box-shadow: 0 8px 50px #23232333;
+  }
+}
+
+.cardinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+  @include hover {
+    transform: translateY(-5%);
+  }
+
+  h1 {
+    @include paragraph($blue);
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    @include paragraph($blue);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+}
+
+.cardavatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --size: 60px;
+  background: linear-gradient(to top, $blue 0%, $lightest-color 100%);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  margin-bottom: 1rem;
+
+  @include hover {
+    transform: scale(1.1);
+  }
+
+  p {
+    @include paragraph($lightest-color);
+  }
+}
+
+.cardsocial {
+  transform: translateY(200%);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: initial;
+  opacity: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+  @include hover {
+    outline: none;
+    transform: scale(1.15);
+  }
+
+  .cardsocial__item a {
+    display: block;
+    fill: #515f65;
+    cursor: pointer;
+    transition: fill 0.2s ease, transform 0.2s ease;
+
+    @include hover {
+      outline: none;
+      transform: scale(1.15);
+    }
+  }
+}
+
+.cardItems:hover .cardsocial {
+  margin-top: 2rem;
+  transform: translateY(100%);
+  opacity: 1;
+}
