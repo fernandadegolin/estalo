@@ -5,7 +5,7 @@ import ValuesImage from "./../../assets/images/values.png";
 
 export function Mission() {
   return (
-    <section className={styles.mission} id="mission">
+    <section className={styles.mission} id="missao-valores">
       <div className={styles.missionTitle}>
         <h1>Missão</h1>
         <p>

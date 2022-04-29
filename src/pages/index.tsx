@@ -9,15 +9,15 @@ import { Question } from "../components/Question/Question";
 import { Faq } from "./../components/Faq/Faq";
 import { Contact } from "./../components/Contact/Contact";
 import { Footer } from "./../components/Footer/Footer";
-// import { Who } from "./../components/Who/Who";
-import { Card } from "./../components/Who/Card/Card";
+import { Who } from "./../components/Who/Who";
+
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Nav />
       <Main />
-      <Card />
+      <Who />
       <Mission />
       <Question />
       <Faq />
@@ -26,16 +26,7 @@ const Home: NextPage = () => {
           POLITICA DE PRIVACIDADE <a href="https://nextjs.org">Estalo</a>
         </h1>
       </main> */}
-      <p>
-        <a target="_blank" href="https://icons8.com/icon/32292/instagram">
-          Instagram
-        </a>{" "}
-        icon by{" "}
-        <a target="_blank" href="https://icons8.com">
-          Icons8
-        </a>
-      </p>
-      {/* <Who /> */}
+      
       <Contact />
       <Footer />
     </div>

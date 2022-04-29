@@ -7,7 +7,7 @@ import { Button } from "../Button/Button";
 
 export const Question = () => {
   return (
-    <section className={styles.question} id="question">
+    <section className={styles.question} id="porque-terapia">
       <div className={styles.questionTitle}>
         <h1>Por que fazer terapia?</h1>
         <p>

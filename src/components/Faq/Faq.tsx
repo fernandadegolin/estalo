@@ -29,6 +29,7 @@ export const Faq = () => {
             <details key={faq.question}>
               <summary>{faq.question}</summary>
               <main>{faq.answer}</main>
+              <hr></hr>
             </details>
           ))}
         </div>

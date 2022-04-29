@@ -21,12 +21,12 @@ export function Nav() {
             </Link>
           </li>
           <li>
-            <Link href="#mission">
+            <Link href="#missao-valores">
               <a>Missão e Valores</a>
             </Link>
           </li>
           <li>
-            <Link href="#question">
+            <Link href="#porque-terapia">
               <a>Por que fazer terapia?</a>
             </Link>
           </li>
@@ -36,8 +36,8 @@ export function Nav() {
             </Link>
           </li>
           <li>
-            <Link href="#contact">
-              <a>Contato</a>
+            <Link href="#contatos">
+              <a>Contatos</a>
             </Link>
           </li>
         </ul>
