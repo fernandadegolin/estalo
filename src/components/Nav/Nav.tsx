@@ -11,7 +11,10 @@ export function Nav() {
   return (
     <section className={styles.nav}>
       <figure className={styles.navLogo}>
-        <Image src={Logo} alt="Estalo" />
+        <Image
+          src={Logo}
+          alt="Logo da Estalo, uma ilustração de uma mão estalando os dedos"
+        />
       </figure>
       <div className={styles.navBar}>
         <ul>

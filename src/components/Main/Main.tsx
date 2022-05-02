@@ -14,7 +14,7 @@ export const Main = () => {
         <p>Psicologia baseada em evidências</p>
       </div>
       <figure className={styles.mainEstalo}>
-        <Image src={Estalo} alt="Estalo"></Image>
+        <Image src={Estalo} alt="Logo da Estalo, uma ilustração de uma mão estalando os dedos"></Image>
       </figure>
     </section>
   );

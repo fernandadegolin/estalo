@@ -1,1 +1,28 @@
 @import "./../../styles/includes";
+
+.card {
+  background: $blue;
+  height: auto;
+}
+
+.cardTitle {
+  padding: 7rem 11rem 7rem;
+
+  h1 {
+    @include title($lightest-color);
+  }
+
+  p {
+    @include paragraph($lightest-color);
+    padding: 2rem 9rem 0;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+}
+
+.cardSlider {
+  button {
+    right: 25px;
+  }
+}

@@ -24,33 +24,38 @@ export const Footer = () => {
     <section className={styles.footer}>
       <div className={styles.footerLinks}>
         <figure>
-          <Image src={Logo} alt="Estalo" width={80} height={80} />
+          <Image src={Logo} alt="Logo da Estalo, uma ilustração de uma mão estalando os dedos" width={80} height={80} />
         </figure>
       </div>
       <hr></hr>
       <div className={styles.footerIcons}>
-        <Link href="">
-          <a target="_blank">
-            <Image src={emailColor} alt="logo email " width={30} height={30} />
-          </a>
-        </Link>
-
-        <Link href="#">
+        <Link href="mailto:estalo.psi@gmail.com">
           <a target="_blank">
             <Image
-              src={facebookColor}
-              alt="logo Facebook "
+              src={emailColor}
+              alt="Envelope de email"
               width={30}
               height={30}
             />
           </a>
         </Link>
 
-        <Link href="#">
+        <Link href="https://www.facebook.com/Estalo-Psicologia-107572618482550/">
+          <a target="_blank">
+            <Image
+              src={facebookColor}
+              alt="Logo do Facebook"
+              width={30}
+              height={30}
+            />
+          </a>
+        </Link>
+
+        <Link href="https://www.instagram.com/estalo.psi/">
           <a target="_blank">
             <Image
               src={instagramColor}
-              alt="logo Instagram "
+              alt="Logo do Instagram"
               width={30}
               height={30}
             />
@@ -61,7 +66,7 @@ export const Footer = () => {
           <a target="_blank">
             <Image
               src={whatsappColor}
-              alt="logo Whatsapp"
+              alt="Logo do Whatsapp"
               width={30}
               height={30}
             />
@@ -73,7 +78,14 @@ export const Footer = () => {
           Copyright © Estalo 2022. Todos os direitos reservados. <br></br>{" "}
           <span>
             <br></br>
-            built by <a href="https:">Fernanda Degolin</a>
+            built by{" "}
+            <a
+              href="https://www.instagram.com/fernandadegolin/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Fernanda Degolin
+            </a>
           </span>
         </p>
       </div>

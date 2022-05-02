@@ -15,7 +15,7 @@ export const Contact = () => {
         <form action="#">
           <Button variant="blue">Agendamento</Button>
         </form>
-        <form action="">
+        <form action="mailto:estalo.psi@gmail.com" target="_blank">
           <Button variant="light">Email</Button>
         </form>
         <form action="">

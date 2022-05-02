@@ -42,5 +42,11 @@
     font-weight: bold;
     letter-spacing: 1px;
     text-align: center;
+
+    a {
+      @include hover {
+        text-decoration: underline !important;
+      }
+    }
   }
 }

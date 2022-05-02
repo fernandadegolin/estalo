@@ -18,14 +18,14 @@ export const Question = () => {
           do eiusmod tempor incididunt ut laboreß.
         </p>
       </div>
-      <form action="https://fernandadegolin.com" target="_blank">
+      <form action="#" target="_blank">
         <Button variant="lightRed">Agendamento</Button>
       </form>
 
       <figure>
         <Image
           src={FaqImage}
-          alt="Pessoa segurando uma placa com um sinal de interrogação na altura do rosto"
+          alt="Dois bustos de estátuas estilo grego, uma delas com uma lampada na cabeça e a outra com um novelo de lã vermelho densenrolado"
           width={480}
           height={480}
         />
