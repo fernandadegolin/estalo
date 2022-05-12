@@ -23,11 +23,13 @@ export function Nav() {
               <a>Quem Somos</a>
             </Link>
           </li>
+
           <li>
             <Link href="#missao-valores">
               <a>Missão e Valores</a>
             </Link>
           </li>
+
           <li>
             <Link href="#porque-terapia">
               <a>Por que fazer terapia?</a>

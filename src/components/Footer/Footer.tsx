@@ -34,8 +34,8 @@ export const Footer = () => {
             <Image
               src={emailColor}
               alt="Envelope de email"
-              width={30}
-              height={30}
+              width={40}
+              height={40}
             />
           </a>
         </Link>
@@ -45,8 +45,8 @@ export const Footer = () => {
             <Image
               src={facebookColor}
               alt="Logo do Facebook"
-              width={30}
-              height={30}
+              width={40}
+              height={40}
             />
           </a>
         </Link>
@@ -56,8 +56,8 @@ export const Footer = () => {
             <Image
               src={instagramColor}
               alt="Logo do Instagram"
-              width={30}
-              height={30}
+              width={40}
+              height={40}
             />
           </a>
         </Link>
@@ -67,8 +67,8 @@ export const Footer = () => {
             <Image
               src={whatsappColor}
               alt="Logo do Whatsapp"
-              width={30}
-              height={30}
+              width={40}
+              height={40}
             />
           </a>
         </Link>

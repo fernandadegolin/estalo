@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./Faq.module.scss";
 
 import { FaqItems, questionFaq } from "./data";
-import EstaloImage from "./../../assets/images/diversos.png";
+import EstaloImage from "./../../assets/images/question.png";
 
 export const Faq = () => {
   return (
@@ -24,12 +24,12 @@ export const Faq = () => {
             height={600}
           />
         </figure>
+
         <div className={styles.faqAnswerItems}>
           {questionFaq.map((faq: FaqItems) => (
             <details key={faq.question}>
               <summary>{faq.question}</summary>
               <main>{faq.answer}</main>
-              <hr></hr>
             </details>
           ))}
         </div>

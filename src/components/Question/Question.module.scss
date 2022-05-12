@@ -1,7 +1,7 @@
 @import "./../../styles/includes";
 
 .question {
-  background: $bgRed;
+  background: $red;
   height: 124vh;
 
   form {
@@ -39,7 +39,6 @@
     @include paragraph($pink);
     text-align: center;
     margin-top: 4rem;
-    font-size: 1.1rem;
     line-height: 2rem;
     letter-spacing: 1px;
     padding: 0 9rem;

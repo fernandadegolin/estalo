@@ -1,20 +1,14 @@
 @import "./../../../styles/_includes";
 
-.cardItem {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10rem 2rem;
-}
-
 .cardItems {
-  width: 190px;
-  min-width: 190px;
-  height: 254px;
+  width: auto;
+  min-width: 250px;
+  height: fit-content;
   min-height: 254px;
   padding: 2rem 1.5rem;
   border-radius: 10px;
-  background: #f2f2f3;
-  box-shadow: inset 5px 5px 10px #a9a9aa77, inset -5px -5px 10px #ffffff7e;
+  background: $lightest-color;
+  box-shadow: inset 5px 5px 10px $medium-color, inset -5px -5px 10px #ffffff7e;
   transition: box-shadow 0.3s ease, transform 0.2s ease;
 
   @include hover {
@@ -22,22 +16,22 @@
   }
 }
 
-.cardinfo {
+.cardAvatar {
+  display: flex;
+  justify-content: center;
+}
+.cardInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-
-  @include hover {
-    transform: translateY(-5%);
-  }
 
   h1 {
     @include paragraph($blue);
     font-size: 1.1rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 1px;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -50,74 +44,59 @@
   }
 }
 
-.cardavatar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  --size: 60px;
-  background: linear-gradient(to top, $blue 0%, $lightest-color 100%);
-  width: var(--size);
-  height: var(--size);
-  border-radius: 50%;
-  transition: transform 0.2s ease;
-  margin-bottom: 1rem;
-
-  @include hover {
-    transform: scale(1.1);
-  }
-
-  p {
-    @include paragraph($lightest-color);
-  }
-}
-
-.cardsocial {
-  transform: translateY(200%);
-  display: flex;
-  justify-content: space-around;
+.cardBio {
+  padding-top: 2rem;
+  cursor: pointer;
   width: 100%;
-  padding: initial;
-  opacity: 0;
-  transition: transform 0.2s ease, opacity 0.2s ease;
 
-  @include hover {
-    outline: none;
-    transform: scale(1.15);
+  details[open] summary ~ * {
+    animation: sweep 0.5s ease-in-out;
   }
 
-  .cardsocial__item a {
-    display: block;
-    fill: #515f65;
-    cursor: pointer;
-    transition: fill 0.2s ease, transform 0.2s ease;
-
-    @include hover {
-      outline: none;
-      transform: scale(1.15);
+  @keyframes sweep {
+    0% {
+      opacity: 0;
+      margin-left: -10px;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0px;
     }
   }
-}
 
-.cardItems:hover .cardsocial {
-  margin-top: 2rem;
-  transform: translateY(100%);
-  opacity: 1;
-}
-
-.cardBio {
-  padding: 1rem 6rem 0rem;
-
-  h3 {
-    @include paragraph($lightest-color);
-    padding: 1rem 5rem;
+  summary {
+    @include paragraph($blue);
+    font-size: 1.1rem;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+    background: $blue;
+    color: $lightest-color;
+    border: 1px solid #29435e29;
+    border-radius: 6px;
+    transition: color 0.2s linear, background-color 0.2s linear,
+      box-shadow 0.2s linear, transform 0.3s ease;
+
+    @include hover {
+      background: $lightest-color;
+      color: $blue;
+      outline: none;
+    }
+
+    &::marker,
+    &::-webkit-details-marker {
+      content: "";
+      display: none;
+      opacity: 0;
+      font-size: 0px;
+      color: transparent;
+    }
   }
 
-  p {
-    @include paragraph($lightest-color);
-    padding: 3rem 5rem;
+  main {
+    @include paragraph($blue);
     font-size: 1.1rem;
-    line-height: 2rem;
-    letter-spacing: 1px;
+    line-height: 1.5rem;
   }
 }

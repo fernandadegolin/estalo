@@ -3,7 +3,7 @@
 
 @mixin nav() {
   font-family: $font-default;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: $red;
   transition: 0.2s;
 }
@@ -17,5 +17,5 @@
 @mixin paragraph($color) {
   font-family: $font-default;
   color: $color;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }

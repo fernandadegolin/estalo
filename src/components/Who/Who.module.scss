@@ -1,28 +1,36 @@
 @import "./../../styles/includes";
 
 .card {
-  background: $blue;
-  height: auto;
+  background: $lightest-color;
+  height: fit-content;
 }
 
 .cardTitle {
   padding: 7rem 11rem 7rem;
 
   h1 {
-    @include title($lightest-color);
+    @include title($blue);
   }
 
   p {
-    @include paragraph($lightest-color);
+    @include paragraph($blue);
     padding: 2rem 9rem 0;
-    font-size: 1.1rem;
     line-height: 2rem;
     letter-spacing: 1px;
   }
 }
 
-.cardSlider {
-  button {
-    right: 25px;
-  }
+.cardItem {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 3rem;
+  padding: 1rem 10rem;
 }
+
+//Opção de Carosel
+//
+// .cardSlider {
+//   button {
+//     right: 25px;
+//   }
+// }

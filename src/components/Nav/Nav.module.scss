@@ -15,23 +15,32 @@
 .navLogo {
   width: 80px;
   padding: 0.5rem 4vw;
+
+  @include hover {
+    outline: none;
+    transform: scale(1.05);
+  }
 }
 
 .navBar {
   margin-left: auto;
 
   ul {
-    display: inline-flex;
+    display: flex;
     gap: 50px;
   }
 
   li {
+    border-bottom: solid transparent;
+    padding-bottom: 1rem;
     @include nav;
 
     @include hover {
       outline: none;
       transform: scale(1.05);
       font-weight: bold;
+      border-bottom: solid;
+      padding-bottom: 1rem;
     }
   }
 }
