@@ -4,6 +4,7 @@ import styles from "./Faq.module.scss";
 
 import { FaqItems, questionFaq } from "./data";
 import EstaloImage from "./../../assets/images/question.png";
+import { Button } from "../Button/Button";
 
 export const Faq = () => {
   return (
@@ -33,6 +34,8 @@ export const Faq = () => {
             </details>
           ))}
         </div>
+
+        <Button>Agendamento</Button>
       </div>
     </section>
   );

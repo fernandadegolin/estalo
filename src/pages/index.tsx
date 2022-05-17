@@ -11,22 +11,21 @@ import { Contact } from "./../components/Contact/Contact";
 import { Footer } from "./../components/Footer/Footer";
 import { Who } from "./../components/Who/Who";
 
-
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      {/* <Nav /> */}
-      {/* <Main /> */}
-      {/* <Who /> */}
-      {/* <Mission /> */}
-      {/* <Question /> */}
+      <Nav />
+      <Main />
+      <Who />
+      <Mission />
+      <Question />
       <Faq />
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           POLITICA DE PRIVACIDADE <a href="https://nextjs.org">Estalo</a>
         </h1>
       </main> */}
-      
+
       <Contact />
       <Footer />
     </div>

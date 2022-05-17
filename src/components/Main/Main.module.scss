@@ -13,14 +13,6 @@
 
   h1 {
     @include title($red);
-
-    @include media-breakpoint-up(md) {
-      color: green;
-    }
-
-    @include media-breakpoint-up(desktop) {
-      color: blue;
-    }
   }
 
   p {

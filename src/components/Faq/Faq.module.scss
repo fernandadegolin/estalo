@@ -8,7 +8,7 @@
   padding: 7rem 11rem 4rem;
 
   @include media-breakpoint-down(md) {
-    padding: 2rem 1rem 4rem;
+    padding: 2rem 1rem 1rem;
   }
 
   h1 {
@@ -41,7 +41,7 @@
 
   @include media-breakpoint-down(md) {
     margin-top: 0;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -53,6 +53,15 @@
     @include media-breakpoint-down(md) {
       width: 80vw;
       margin-top: inherit;
+    }
+  }
+
+  Button {
+    display: none;
+
+    @include media-breakpoint-down(md) {
+      display: block;
+      margin-top: 4rem;
     }
   }
 }
