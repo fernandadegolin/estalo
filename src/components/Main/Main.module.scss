@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: $yellow; 
+  background: $yellow;
   height: 100vh;
 }
 
@@ -13,6 +13,14 @@
 
   h1 {
     @include title($red);
+
+    @include media-breakpoint-up(md) {
+      color: green;
+    }
+
+    @include media-breakpoint-up(desktop) {
+      color: blue;
+    }
   }
 
   p {

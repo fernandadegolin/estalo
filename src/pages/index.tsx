@@ -15,12 +15,12 @@ import { Who } from "./../components/Who/Who";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Nav />
-      <Main />
-      <Who />
-      <Mission />
-      <Question />
-      <Faq />
+      {/* <Nav /> */}
+      {/* <Main /> */}
+      {/* <Who /> */}
+      {/* <Mission /> */}
+      {/* <Question /> */}
+      {/* <Faq /> */}
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           POLITICA DE PRIVACIDADE <a href="https://nextjs.org">Estalo</a>
