@@ -3,14 +3,14 @@
 .contactTitle {
   padding: 7rem 11rem 4rem;
 
-  @include media-breakpoint-up(iphone) {
+  @include media-breakpoint-down(sm) {
     padding: 2rem 1rem 4rem;
   }
 
   h1 {
     @include title($blue);
 
-    @include media-breakpoint-up(iphone) {
+    @include media-breakpoint-down(sm) {
       @include titleResponsive();
     }
   }
@@ -21,7 +21,7 @@
     line-height: 2rem;
     letter-spacing: 1px;
 
-    @include media-breakpoint-up(iphone) {
+    @include media-breakpoint-down(sm) {
       @include paragraphResponvise();
     }
   }
@@ -31,7 +31,7 @@
   display: flex;
   justify-content: center;
 
-  @include media-breakpoint-up(iphone) {
+  @include media-breakpoint-down(sm) {
     flex-direction: column;
     align-items: center;
   }
