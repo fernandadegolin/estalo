@@ -33,25 +33,24 @@ $font-medium: "Oranienbaum", serif;
 // Bootstrap
 $grid-breakpoints: (
   xs: 0,
-  
   sm: 390px,
   md: 768px,
-  tablet: 768px,
-  lg: 1366px,
+  lg: 1019px,
   desktop: 1366px,
 );
 
-$container-min-widths: (
-  
+$container-max-widths: (
   sm: 390px,
   md: 720px,
   tablet: 720px,
-  lg: 1262px,
+  lg: 1019px,
   desktop: 1262px,
 );
 
 // Exemplo de media
+
+// UP use mobile first
 // @include media-breakpoint-up(sm) { ... }
 
-$slick: "slick-carousel/slick/slick.css";
-$carousel: "slick-carousel/slick/slick-theme.css";
+// DOWN use desktop first
+// @include media-breakpoint-down(sm) { ... }

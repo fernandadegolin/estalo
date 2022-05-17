@@ -3,14 +3,14 @@
 .contactTitle {
   padding: 7rem 11rem 4rem;
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     padding: 2rem 1rem 4rem;
   }
 
   h1 {
     @include title($blue);
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
       @include titleResponsive();
     }
   }
@@ -21,7 +21,11 @@
     line-height: 2rem;
     letter-spacing: 1px;
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
+      @include paragraphResponvise();
+    }
+
+    @include media-breakpoint-down(lg) {
       @include paragraphResponvise();
     }
   }
@@ -31,7 +35,7 @@
   display: flex;
   justify-content: center;
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     flex-direction: column;
     align-items: center;
   }

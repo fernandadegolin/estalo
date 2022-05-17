@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       {/* <Who /> */}
       {/* <Mission /> */}
       {/* <Question /> */}
-      {/* <Faq /> */}
+      <Faq />
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           POLITICA DE PRIVACIDADE <a href="https://nextjs.org">Estalo</a>
