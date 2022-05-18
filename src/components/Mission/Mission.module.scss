@@ -3,14 +3,27 @@
 .mission {
   height: 100vh;
   padding: 4vw;
+
+  @include media-breakpoint-down(lg) {
+    height: auto;
+  }
 }
 
 .missionTitle {
   padding-top: 3rem; //Para o link dar certinho
   width: 50%;
 
+  @include media-breakpoint-down(lg) {
+    width: auto;
+    padding: initial
+  }
+
   h1 {
     @include title($blue);
+
+    @include media-breakpoint-down(md) {
+      @include titleResponsive();
+    }
   }
 
   p {
@@ -18,16 +31,29 @@
     margin-top: 2rem;
     line-height: 2rem;
     letter-spacing: 1px;
+
+    @include media-breakpoint-down(md) {
+      @include paragraphResponvise();
+    }
   }
 }
 
 .valuesTitle {
   width: 50%;
+  padding-bottom: 3rem; 
   margin-left: auto;
   text-align: right;
 
+  @include media-breakpoint-down(lg) {
+    width: auto;
+  }
+
   h1 {
     @include title($blue);
+
+    @include media-breakpoint-down(md) {
+      @include titleResponsive();
+    }
   }
 
   p {
@@ -35,11 +61,19 @@
     margin-top: 2rem;
     line-height: 2rem;
     letter-spacing: 1px;
+
+    @include media-breakpoint-down(md) {
+      @include paragraphResponvise();
+    }
   }
 }
 
 .values {
   display: flex;
+
+  @include media-breakpoint-down(lg) {
+    flex-direction: column;
+  }
 }
 
 .valuesImage {
@@ -47,4 +81,9 @@
   margin-left: -4vw;
   margin-top: 2vw;
   filter: drop-shadow(5px 10px 26px #942c2b);
+
+  @include media-breakpoint-down(lg) {
+    width: auto;
+    max-width: 50%;
+  }
 }
