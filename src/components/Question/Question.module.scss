@@ -1,17 +1,67 @@
 @import "./../../styles/includes";
 
+.questionTitle {
+  padding: 4rem 11rem;
+
+  @include media-breakpoint-down(md) {
+    padding: 2rem 1rem 4rem;
+  }
+
+  h1 {
+    @include title($pink);
+    margin-top: 5rem;
+    text-align: center;
+
+    @include media-breakpoint-down(md) {
+      @include titleResponsive();
+      margin-top: initial;
+    }
+  }
+
+  p {
+    @include paragraph($pink);
+    text-align: center;
+    margin-top: 4rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    padding: 0 9rem;
+
+    @include media-breakpoint-down(md) {
+      @include paragraphResponvise();
+    }
+
+    @include media-breakpoint-down(lg) {
+      @include paragraphResponvise();
+    }
+  }
+}
+
 .question {
   background: $red;
   height: 124vh;
+
+  @include media-breakpoint-down(lg) {
+    height: auto;
+  }
 
   form {
     display: flex;
     justify-content: center;
 
+    @include media-breakpoint-down(lg) {
+      padding: 1rem 4vw 7rem;
+    }
+
     Button {
       min-width: 225px;
       min-height: 64px;
       text-transform: uppercase;
+
+      @include media-breakpoint-down(md) {
+        min-width: none;
+        min-height: initial;
+        text-transform: none;
+      }
     }
   }
 
@@ -23,24 +73,9 @@
     img {
       margin-bottom: 2rem;
     }
-  }
-}
 
-.questionTitle {
-  padding: 4rem 11rem;
-
-  h1 {
-    @include title($pink);
-    margin-top: 5rem;
-    text-align: center;
-  }
-
-  p {
-    @include paragraph($pink);
-    text-align: center;
-    margin-top: 4rem;
-    line-height: 2rem;
-    letter-spacing: 1px;
-    padding: 0 9rem;
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
   }
 }

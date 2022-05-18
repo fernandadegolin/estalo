@@ -14,10 +14,10 @@ import { Who } from "./../components/Who/Who";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Nav />
-      <Main />
-      <Who />
-      <Mission />
+      {/* <Nav /> */}
+      {/* <Main /> */}
+      {/* <Who /> */}
+      {/* <Mission /> */}
       <Question />
       <Faq />
       {/* <main className={styles.main}>
