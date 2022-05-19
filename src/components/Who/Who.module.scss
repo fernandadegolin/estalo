@@ -45,6 +45,7 @@
 
   @include media-breakpoint-down(md) {
     display: block;
+    grid-template-columns: 2fr;
     padding: 3rem;
   }
 
