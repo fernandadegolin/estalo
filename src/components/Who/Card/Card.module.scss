@@ -14,6 +14,10 @@
   @include hover {
     box-shadow: 0 8px 50px #23232333;
   }
+
+  @include media-breakpoint-down(lg) {
+    margin-top: 3rem;
+  }
 }
 
 .cardAvatar {

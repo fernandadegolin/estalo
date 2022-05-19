@@ -8,8 +8,21 @@
 .cardTitle {
   padding: 7rem 11rem 7rem;
 
+  @include media-breakpoint-down(lg) {
+    padding: 2rem 1rem;
+  }
+
   h1 {
     @include title($blue);
+
+    @include media-breakpoint-down(md) {
+      @include titleResponsive();
+    }
+
+    @include media-breakpoint-down(md) {
+      @include titleResponsive();
+      padding: 1rem;
+    }
   }
 
   p {
@@ -17,6 +30,10 @@
     padding: 2rem 9rem 0;
     line-height: 2rem;
     letter-spacing: 1px;
+
+    @include media-breakpoint-down(lg) {
+      @include paragraphResponvise();
+    }
   }
 }
 
@@ -24,7 +41,17 @@
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   gap: 3rem;
-  padding: 1rem 10rem;
+  padding: 1rem 4rem;
+
+  @include media-breakpoint-down(md) {
+    display: block;
+    padding: 3rem;
+  }
+
+  @include media-breakpoint-down(lg) {
+    grid-template-columns: 2fr 2fr;
+    padding: 3rem;
+  }
 }
 
 //Opção de Carosel

@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       {/* <Nav /> */}
       {/* <Main /> */}
-      {/* <Who /> */}
+      <Who />
       <Mission />
       <Question />
       <Faq />

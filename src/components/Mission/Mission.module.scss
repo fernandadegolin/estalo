@@ -15,7 +15,7 @@
 
   @include media-breakpoint-down(lg) {
     width: auto;
-    padding: initial
+    padding: initial;
   }
 
   h1 {
@@ -40,7 +40,7 @@
 
 .valuesTitle {
   width: 50%;
-  padding-bottom: 3rem; 
+  padding-bottom: 3rem;
   margin-left: auto;
   text-align: right;
 
@@ -82,8 +82,9 @@
   margin-top: 2vw;
   filter: drop-shadow(5px 10px 26px #942c2b);
 
-  @include media-breakpoint-down(lg) {
+  @include media-breakpoint-down(md) {
     width: auto;
-    max-width: 50%;
+    max-width: 77%;
+    margin-top: 5rem;
   }
 }
