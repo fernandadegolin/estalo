@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* <Nav /> */}
-      {/* <Main /> */}
+      <Main />
       <Who />
       <Mission />
       <Question />

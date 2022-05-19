@@ -6,13 +6,29 @@
   align-items: center;
   background: $yellow;
   height: 100vh;
+
+  @include media-breakpoint-down(md) {
+    height: auto;
+    flex-direction: column-reverse;
+    padding-bottom: 4rem;
+  }
 }
 
 .mainTitle {
   margin-top: 5rem;
+  padding: 0 2rem;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 1rem;
+  }
 
   h1 {
     @include title($red);
+
+    @include media-breakpoint-down(md) {
+      @include titleResponsive();
+      text-align: center;
+    }
   }
 
   p {
@@ -20,10 +36,19 @@
     font-size: 1.5rem;
     letter-spacing: 3px;
     margin-top: 2rem;
+
+    @include media-breakpoint-down(md) {
+      @include paragraphResponvise();
+      text-align: center;
+    }
   }
 }
 
 .mainEstalo {
   width: 30vw;
   margin-top: 5rem;
+
+  @include media-breakpoint-down(md) {
+    width: 60vw;
+  }
 }
