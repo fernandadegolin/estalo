@@ -68,6 +68,7 @@
 
     @include media-breakpoint-down(md) {
       @include paragraphResponvise();
+      margin-top: 0;
     }
   }
 }
