@@ -14,7 +14,7 @@ import { Who } from "./../components/Who/Who";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      {/* <Nav /> */}
+      <Nav />
       <Main />
       <Who />
       <Mission />

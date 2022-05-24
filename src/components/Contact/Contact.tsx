@@ -7,8 +7,8 @@ export const Contact = () => {
       <div className={styles.contactTitle}>
         <h1>Contatos</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore
+          Em caso de dúvidas, você pode entrar em contato conosco através das
+          redes sociais ou nos canais de atendimento. Estamos à disposição!
         </p>
       </div>
       <div className={styles.contactItems}>

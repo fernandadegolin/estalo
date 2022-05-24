@@ -14,6 +14,16 @@
   justify-content: center;
 }
 
+.footerInfo {
+  p {
+    @include paragraph($blue);
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+}
+
 .footerIcons {
   display: flex;
   justify-content: center;

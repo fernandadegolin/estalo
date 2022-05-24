@@ -37,6 +37,7 @@
 
 .faqAnswer {
   display: flex;
+  align-items: center;
   margin-top: 3rem;
 
   @include media-breakpoint-down(md) {

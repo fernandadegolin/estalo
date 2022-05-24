@@ -24,8 +24,19 @@ export const Footer = () => {
     <section className={styles.footer}>
       <div className={styles.footerLinks}>
         <figure>
-          <Image src={Logo} alt="Logo da Estalo, uma ilustração de uma mão estalando os dedos" width={80} height={80} />
+          <Image
+            src={Logo}
+            alt="Logo da Estalo, uma ilustração de uma mão estalando os dedos"
+            width={80}
+            height={80}
+          />
         </figure>
+      </div>
+      <div className={styles.footerInfo}>
+        <p>
+          Siga-nos nas redes sociais e fique por dentro de todas as nossas ações
+          e novidades.
+        </p>
       </div>
       <hr></hr>
       <div className={styles.footerIcons}>

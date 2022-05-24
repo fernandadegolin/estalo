@@ -12,7 +12,7 @@ export const Faq = () => {
       <div className={styles.faqTitle}>
         <h1>Dúvidas</h1>
         <p>
-          fazer terapia pode te auxiliar a lidar com sintomas e Transtornos,
+          Fazer terapia pode te auxiliar a lidar com sintomas e Transtornos,
           mudar hábitos, desenvolver habilidades, promove autoconhecimento.
         </p>
       </div>

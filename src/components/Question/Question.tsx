@@ -11,11 +11,21 @@ export const Question = () => {
       <div className={styles.questionTitle}>
         <h1>Por que fazer terapia?</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut laboreß. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          laboreß. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut laboreß.
+          Diversas demandas podem te trazer até a Estalo Psicologia: conflitos
+          nos relacionamentos, sintomas físicos, estados de humor como tristeza,
+          angústia, raiva ou até mesmo pensamentos recorrentes e dificuldades em
+          tomadas de decisões...
+        </p>
+        <p>
+          A terapia pode te auxiliar nessas questões enquanto oferece
+          acolhimento de escuta ativa, sigilo e ainda te auxilia a desenvolver
+          ainda mais seu autoconhecimento.
+        </p>
+        <p>
+          Muito além de lidar com sintomas e transtornos, a busca por um
+          psicólogo é, em sua essência, a promoção de saúde mental. Caso você
+          sinta dificuldade, esteja em sofrimento ou deseje desenvolver uma
+          melhor compreensão de si mesmo, agende uma consulta conosco.
         </p>
       </div>
       <form action="#" target="_blank">

@@ -28,17 +28,19 @@
 
     @include media-breakpoint-down(md) {
       @include paragraphResponvise();
+      margin-top: 0;
     }
 
     @include media-breakpoint-down(lg) {
       @include paragraphResponvise();
+      margin-top: 0;
     }
   }
 }
 
 .question {
   background: $red;
-  height: 124vh;
+  height: auto;
 
   @include media-breakpoint-down(lg) {
     height: auto;

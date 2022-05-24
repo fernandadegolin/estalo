@@ -43,6 +43,10 @@
       padding-bottom: 1rem;
     }
   }
+
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
 }
 
 .roundedButton {
@@ -62,6 +66,8 @@
 
     transition: color 0.2s linear, background-color 0.2s linear,
       box-shadow 0.2s linear, transform 0.3s ease;
+
+   
 
     @include hover {
       background: $lightest-color;

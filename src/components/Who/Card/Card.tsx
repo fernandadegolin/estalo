@@ -3,8 +3,6 @@ import Image from "next/image";
 import styles from "./Card.module.scss";
 import { CardItems } from "./data";
 
-
-
 export const Card = ({ avatar, name, info, bio }: CardItems) => {
   return (
     <section className={styles.card}>
@@ -25,7 +23,7 @@ export const Card = ({ avatar, name, info, bio }: CardItems) => {
 
           <div className={styles.cardBio}>
             <details>
-              <summary>Currículo</summary>
+              <summary>Saiba mais</summary>
               <main>{bio}</main>
             </details>
           </div>

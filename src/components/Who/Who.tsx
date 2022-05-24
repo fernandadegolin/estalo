@@ -3,7 +3,6 @@ import { Card } from "./Card/Card";
 
 import styles from "./Who.module.scss";
 
-
 import { cardPerson } from "./Card/data";
 
 // import "slick-carousel/slick/slick.css";
@@ -15,8 +14,14 @@ export const Who = () => {
       <div className={styles.cardTitle}>
         <h1>Quem somos</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore
+          Muito prazer! A Estalo Psicologia existe desde 2020 e é formada por um
+          grupo de 6 amigos que se conheceu ainda durante o período de
+          graduação.
+        </p>
+        <p>
+          Nos unimos para oferecer atendimento psicoterapêutico, a princípio na
+          modalidade online, de forma ética e respeitosa, a todos que se
+          interessem.
         </p>
       </div>
 

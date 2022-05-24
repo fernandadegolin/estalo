@@ -1,7 +1,7 @@
 @import "./../../styles/includes";
 
 .mission {
-  height: 100vh;
+  height: auto;
   padding: 4vw;
 
   @include media-breakpoint-down(lg) {
@@ -61,6 +61,10 @@
     margin-top: 2rem;
     line-height: 2rem;
     letter-spacing: 1px;
+
+    span {
+      font-weight: bold;
+    }
 
     @include media-breakpoint-down(md) {
       @include paragraphResponvise();
