@@ -30,7 +30,7 @@ export const Faq = () => {
           {questionFaq.map((faq: FaqItems) => (
             <details key={faq.question}>
               <summary>{faq.question}</summary>
-              <main>{faq.answer}</main>
+              <main dangerouslySetInnerHTML={{ __html: faq.answer }}></main>
             </details>
           ))}
         </div>

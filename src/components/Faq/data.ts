@@ -22,7 +22,7 @@ export const questionFaq: FaqItems[] = [
   {
     question: "Qual é o formato?",
     answer:
-      "⁃ Inicialmente, os atendimentos ocorrerão através de videoconferência, dentro da modalidade on-line;\n⁃ O link da sessão será enviado dentro do período de 5 minutos antes do início do atendimento;  ⁃ A cada sessão será disponibilizado um link novo; \n ⁃ Recomendamos que durante os atendimentos utilize fones, procure por um lugar calmo e tranquilo e desative as notificações do celular. O momento de sessão é uma fração do seu dia que você deve se dedicar única e exclusivamente a você. Por isso, eliminar distrações, de modo a deixar esse momento o mais imersivo possível é muito importante.",
+      "⁃ Inicialmente, os atendimentos ocorrerão através de videoconferência, dentro da modalidade on-line;<br/> ⁃ O link da sessão será enviado dentro do período de 5 minutos antes do início do atendimento;  <br/>⁃ A cada sessão será disponibilizado um link novo; <br/> ⁃ Recomendamos que durante os atendimentos utilize fones, procure por um lugar calmo e tranquilo e desative as notificações do celular. O momento de sessão é uma fração do seu dia que você deve se dedicar única e exclusivamente a você. Por isso, eliminar distrações, de modo a deixar esse momento o mais imersivo possível é muito importante.",
   },
   {
     question: "Qual a frequência?",
