@@ -12,14 +12,11 @@ export const Contact = () => {
         </p>
       </div>
       <div className={styles.contactItems}>
-        <form action="#">
+        <form action="https://forms.gle/rdQ4gafygL71K9UaA" target="_blank">
           <Button variant="blue">Agendamento</Button>
         </form>
         <form action="mailto:estalo.psi@gmail.com" target="_blank">
-          <Button variant="light">Email</Button>
-        </form>
-        <form action="">
-          <Button variant="blue">WhatsApp</Button>
+          <Button variant="blue">Email</Button>
         </form>
       </div>
     </section>

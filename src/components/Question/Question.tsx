@@ -28,7 +28,7 @@ export const Question = () => {
           melhor compreensão de si mesmo, agende uma consulta conosco.
         </p>
       </div>
-      <form action="#" target="_blank">
+      <form action="https://forms.gle/rdQ4gafygL71K9UaA" target="_blank">
         <Button variant="lightRed">Agendamento</Button>
       </form>
 

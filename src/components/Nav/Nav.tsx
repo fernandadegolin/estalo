@@ -50,7 +50,9 @@ export function Nav() {
           </li>
         </ul>
       </div>
-      <Button>Agendamento</Button>
+      <form action="https://forms.gle/rdQ4gafygL71K9UaA" target="_blank">
+        <Button>Agendamento</Button>
+      </form>
     </section>
   );
 }

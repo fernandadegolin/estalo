@@ -26,15 +26,15 @@ export function Mission() {
         <div className={styles.valuesTitle}>
           <h1>Valores</h1>
           <p>
-            <span>Criatividade</span> a Estalo é uma empresa jovem baseada em
+            <span>Criatividade:</span> a Estalo é uma empresa jovem baseada em
             soluções criativas para facilitar o acesso à psicologia.
           </p>
           <p>
-            <span>Segurança</span> todos os serviços prestados são baseados em
+            <span>Segurança:</span> todos os serviços prestados são baseados em
             ciência.
           </p>
           <p>
-            <span>Acessível</span> nossos serviços e conteúdos visam sempre
+            <span>Clareza:</span> nossos serviços e conteúdos visam sempre
             acessar todos os públicos e, para isso, mantemos sempre uma
             comunicação fácil e democrática.
           </p>

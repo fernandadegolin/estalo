@@ -73,7 +73,7 @@ export const Footer = () => {
           </a>
         </Link>
 
-        <Link href="#">
+        {/* <Link href="#">
           <a target="_blank">
             <Image
               src={whatsappColor}
@@ -82,7 +82,7 @@ export const Footer = () => {
               height={40}
             />
           </a>
-        </Link>
+        </Link> */}
       </div>
       <div className={styles.footerCopyright}>
         <p>

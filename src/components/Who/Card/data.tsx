@@ -15,7 +15,7 @@ export type CardItems = {
 export const cardPerson: CardItems[] = [
   {
     avatar: Raquel,
-    name: "Raquel Fagundes Santos",
+    name: "Raquel Fagundes Cotrim Santos",
     info: "Psicóloga | CRP 00000",
     bio: "Atendimento clínico com foco em adultos pelo olhar das Terapias Comportamentais Contextuais. Acredito em uma psicologia ética e responsável. Comprometida e sensível à humanidade e disposta a te ajudar a lidar com processos complexos, como os relacionados ao luto, ansiedade e autoconhecimento.",
   },
