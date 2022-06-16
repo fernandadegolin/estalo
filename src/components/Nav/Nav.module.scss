@@ -35,6 +35,10 @@
     padding-bottom: 1rem;
     @include nav;
 
+    @include media-breakpoint-down(md) {
+      @include navResponsive;
+    }
+
     @include hover {
       outline: none;
       transform: scale(1.05);
@@ -49,8 +53,25 @@
   }
 }
 
+.navMobile {
+  ul {
+    margin-top: 10rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    @include navResponsive;
+    margin-top: 1rem;
+  }
+}
+
 .roundedButton {
   padding: 1rem 4vw;
+
+  @include media-breakpoint-down(lg) {
+    display: none;
+  }
 
   button {
     background: $red;
@@ -66,8 +87,6 @@
 
     transition: color 0.2s linear, background-color 0.2s linear,
       box-shadow 0.2s linear, transform 0.3s ease;
-
-   
 
     @include hover {
       background: $lightest-color;

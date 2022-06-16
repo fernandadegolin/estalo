@@ -30,3 +30,11 @@
   padding: 2rem 2rem 0;
   font-size: 1rem;
 }
+
+@mixin navResponsive() {
+  font-family: $font-default;
+  font-size: 0.8rem;
+  color: $red;
+  transition: 0.2s;
+  text-align: right;
+}

@@ -2,7 +2,6 @@ import Image from "next/image";
 
 import styles from "./Main.module.scss";
 import Estalo from "./../../assets/images/estalo.png";
-import { Button } from "../Button/Button";
 
 export const Main = () => {
   return (
@@ -14,7 +13,10 @@ export const Main = () => {
         <p>Psicologia baseada em evidências</p>
       </div>
       <figure className={styles.mainEstalo}>
-        <Image src={Estalo} alt="Logo da Estalo, uma ilustração de uma mão estalando os dedos"></Image>
+        <Image
+          src={Estalo}
+          alt="Logo da Estalo, uma ilustração de uma mão estalando os dedos"
+        ></Image>
       </figure>
     </section>
   );

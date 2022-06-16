@@ -7,7 +7,7 @@
   background: $yellow;
   height: 100vh;
 
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     height: auto;
     flex-direction: column-reverse;
     padding-top: 2rem;
@@ -19,14 +19,14 @@
   margin-top: 5rem;
   padding: 0 2rem;
 
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     margin-top: 1rem;
   }
 
   h1 {
     @include title($red);
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(lg) {
       @include titleResponsive();
       text-align: center;
     }
