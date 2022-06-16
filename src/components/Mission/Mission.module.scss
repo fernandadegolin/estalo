@@ -23,6 +23,7 @@
 
     @include media-breakpoint-down(md) {
       @include titleResponsive();
+      padding-top: 6rem;
     }
   }
 

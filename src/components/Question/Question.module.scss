@@ -14,7 +14,8 @@
 
     @include media-breakpoint-down(md) {
       @include titleResponsive();
-      margin-top: initial;
+      // margin-top: initial;
+
     }
   }
 

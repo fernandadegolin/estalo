@@ -16,6 +16,7 @@
 
     @include media-breakpoint-down(md) {
       @include titleResponsive();
+      margin-top: 3rem;
     }
   }
 
