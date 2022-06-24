@@ -15,7 +15,6 @@ Um trabalho desenvolvido para a [Estalo Psicologia](https://estalopsi.com.br/), 
 `Typescript` <br>
 `Scss`
 
-`Git para versionamento`
 `GitHub para armazenamento`
 `Deploy para Vercel com CI`
 
