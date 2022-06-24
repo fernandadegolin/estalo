@@ -1,6 +1,6 @@
 ## Estalo Psicologia
 
-Um trabalho desenvolvido para a [Estalo Psicologia](https://estalopsi.com.br/), criando com a cara dessa galera especial <br>
+Um trabalho desenvolvido para a [Estalo Psicologia](https://estalopsi.com.br/), criando com a cara dessa galera especial e com um trabalho tão fundamental. Confira o site e aproveite para agendar e conhecer esse trabalho fantástico.<br>
 
 <br><br>
 <div  align="center">
