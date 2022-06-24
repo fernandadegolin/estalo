@@ -11,7 +11,7 @@ Um trabalho desenvolvido para a [Estalo Psicologia](https://estalopsi.com.br/), 
 
 ###### Tecnologia | Ferramentas
 `React` <br>
-`Next`<br>
+`Next.js`<br>
 `Typescript` <br>
 `Scss`
 
