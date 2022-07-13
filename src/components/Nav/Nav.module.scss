@@ -35,6 +35,10 @@
     padding-bottom: 1rem;
     @include nav;
 
+    a {
+      padding-bottom: 1rem;
+    }
+
     @include media-breakpoint-down(md) {
       @include navResponsive;
     }
